@@ -1,0 +1,35 @@
+{
+	"name": "pkg-table",
+	"version": "1.0.0",
+	"description": "Beautifully prints dependencies from package.json",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jawadsab/pkg-table.git"
+	},
+	"bin": {
+		"pkg-table": "index.js"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"cli",
+		"jawad",
+		"vajeeh",
+		"JawadVajeeh"
+	],
+	"author": "Jawad Vajeeh",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jawadsab/pkg-table/issues"
+	},
+	"homepage": "https://github.com/jawadsab/pkg-table#readme",
+	"devDependencies": {
+		"prettier": "^3.3.3"
+	},
+	"scripts": {
+		"test": "node test.js",
+		"format": "prettier --write \"./**/*.{js,json}\""
+	}
+}
